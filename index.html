@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Cyber Flight MVP</title>
+    <link rel="stylesheet" href="styles.css?v=bg-v1" />
+  </head>
+  <body>
+    <main class="app-shell" id="app">
+      <section class="screen screen-home is-active" id="home-screen" aria-label="Home and fighter selection">
+        <div class="home-art" aria-hidden="true"></div>
+        <div class="brand-block">
+          <p class="eyebrow">Season 01 Local Trial</p>
+          <h1>Cyber Flight</h1>
+          <p class="subtitle">Pick a fighter and cross the future energy battlefield.</p>
+        </div>
+
+        <div class="fighter-grid" id="fighter-grid"></div>
+
+        <div class="home-actions">
+          <button class="primary-action" id="start-button" type="button">Start Battle</button>
+          <button class="ghost-action" id="ranking-button" type="button">Local Ranking</button>
+        </div>
+      </section>
+
+      <section class="screen screen-game" id="game-screen" aria-label="Battle screen">
+        <canvas id="game-canvas" width="390" height="844"></canvas>
+
+        <div class="hud" aria-live="polite">
+          <div class="hud-top">
+            <div class="hp-widget">
+              <span>HP</span>
+              <div class="hp-track"><div class="hp-fill" id="hp-fill"></div></div>
+              <strong id="hp-value">0/0</strong>
+            </div>
+            <div class="metric"><img id="score-icon" alt="" /><span id="distance-value">0m</span></div>
+            <div class="metric"><img id="time-icon" alt="" /><span id="time-value">00:00</span></div>
+          </div>
+
+          <div class="hud-bottom">
+            <div class="level-card" aria-label="Aircraft level">
+              <div class="level-head">
+                <img id="rank-icon" alt="" />
+                <strong id="level-value">LV1</strong>
+              </div>
+              <div class="exp-track"><div class="exp-fill" id="exp-fill"></div></div>
+              <span id="exp-value">EXP 0/100</span>
+              <span id="kill-value">Kills 0</span>
+            </div>
+            <div class="skill-strip" id="skill-strip" aria-label="Skills">
+              <button class="skill-button skill-attack" type="button" data-skill="attack" aria-label="Attack Boost">
+                <img alt="" />
+                <span class="skill-name">ATK</span>
+                <strong>0%</strong>
+              </button>
+              <button class="skill-button skill-heal" type="button" data-skill="heal" aria-label="Life Restore">
+                <img alt="" />
+                <span class="skill-name">HEAL</span>
+                <strong>0%</strong>
+              </button>
+              <button class="skill-button skill-shield" type="button" data-skill="shield" aria-label="Cyber Shield">
+                <img alt="" />
+                <span class="skill-name">DEF</span>
+                <strong>0%</strong>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="screen screen-over" id="game-over-screen" aria-label="Game over">
+        <div class="panel">
+          <p class="eyebrow">Game Over</p>
+          <h2>Mission Result</h2>
+          <dl class="result-list">
+            <div><dt>Distance</dt><dd id="result-distance">0m</dd></div>
+            <div><dt>Time</dt><dd id="result-time">00:00</dd></div>
+            <div><dt>Score</dt><dd id="result-score">0</dd></div>
+            <div><dt>Level</dt><dd id="result-level">LV1</dd></div>
+            <div><dt>Kills</dt><dd id="result-kill">0</dd></div>
+            <div><dt>Local Rank</dt><dd id="result-rank">-</dd></div>
+          </dl>
+          <p class="record-note" id="record-note"></p>
+          <div class="panel-actions">
+            <button class="primary-action" id="retry-button" type="button">Retry</button>
+            <button class="ghost-action" id="over-ranking-button" type="button">View Ranking</button>
+            <button class="ghost-action" id="home-button" type="button">Home</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="screen screen-ranking" id="ranking-screen" aria-label="Ranking">
+        <div class="panel ranking-panel">
+          <p class="eyebrow">Cyber Flight Season 01</p>
+          <h2>Local Ranking</h2>
+          <ol class="ranking-list" id="ranking-list"></ol>
+          <div class="panel-actions">
+            <button class="primary-action" id="ranking-retry-button" type="button">Start Battle</button>
+            <button class="ghost-action" id="ranking-home-button" type="button">Home</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="js/main.js?v=bg-v1"></script>
+  </body>
+</html>
