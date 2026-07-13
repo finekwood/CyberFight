@@ -1,0 +1,430 @@
+{
+  "version": "1.0.0",
+  "date": "2026-07-10",
+  "basePath": "assets/",
+  "format": "svg",
+  "reference": {
+    "characterReference": {
+      "path": "assets/reference/character-reference-yellow-white-dogs.png",
+      "usage": "visual-reference-only"
+    }
+  },
+  "canvas": {
+    "designWidth": 390,
+    "designHeight": 844,
+    "safeArea": {
+      "top": 24,
+      "bottom": 28,
+      "left": 16,
+      "right": 16
+    }
+  },
+  "player": {
+    "yellowDogAvatar": {
+      "path": "assets/player/yellow-dog/yellow-dog-avatar.svg",
+      "viewBox": [0, 0, 120, 120],
+      "recommendedDisplaySize": [72, 72],
+      "mvp": true
+    },
+    "whiteDogAvatar": {
+      "path": "assets/player/white-dog/white-dog-avatar.svg",
+      "viewBox": [0, 0, 120, 120],
+      "recommendedDisplaySize": [72, 72],
+      "mvp": true
+    }
+  },
+  "aircraft": {
+    "yellowFighterIdle": {
+      "path": "assets/aircraft/yellow-fighter/yellow-fighter-idle.svg",
+      "viewBox": [0, 0, 96, 112],
+      "recommendedDisplaySize": [72, 88],
+      "collisionSize": [54, 64],
+      "anchor": "bottom-center",
+      "mvp": true
+    },
+    "yellowFighterLv1": {
+      "path": "assets/aircraft/yellow-fighter/yellow-fighter-lv1.png?v=aircraft-ui-v1",
+      "recommendedDisplaySize": [72, 88],
+      "collisionSize": [54, 64],
+      "anchor": "bottom-center",
+      "mvp": true
+    },
+    "yellowFighterLv2": {
+      "path": "assets/aircraft/yellow-fighter/yellow-fighter-lv2.png?v=aircraft-ui-v1",
+      "recommendedDisplaySize": [118, 88],
+      "collisionSize": [58, 68],
+      "anchor": "bottom-center",
+      "mvp": true
+    },
+    "yellowFighterLv3": {
+      "path": "assets/aircraft/yellow-fighter/yellow-fighter-lv3.png?v=aircraft-ui-v1",
+      "recommendedDisplaySize": [156, 88],
+      "collisionSize": [64, 74],
+      "anchor": "bottom-center",
+      "mvp": true
+    },
+    "whiteFighterIdle": {
+      "path": "assets/aircraft/white-fighter/white-fighter-idle.svg",
+      "viewBox": [0, 0, 96, 112],
+      "recommendedDisplaySize": [72, 88],
+      "collisionSize": [54, 64],
+      "anchor": "bottom-center",
+      "mvp": true
+    },
+    "whiteFighterLv1": {
+      "path": "assets/aircraft/white-fighter/white-fighter-lv1.png?v=aircraft-ui-v1",
+      "recommendedDisplaySize": [72, 88],
+      "collisionSize": [54, 64],
+      "anchor": "bottom-center",
+      "mvp": true
+    },
+    "whiteFighterLv2": {
+      "path": "assets/aircraft/white-fighter/white-fighter-lv2.png?v=aircraft-ui-v1",
+      "recommendedDisplaySize": [118, 88],
+      "collisionSize": [58, 68],
+      "anchor": "bottom-center",
+      "mvp": true
+    },
+    "whiteFighterLv3": {
+      "path": "assets/aircraft/white-fighter/white-fighter-lv3.png?v=aircraft-ui-v1",
+      "recommendedDisplaySize": [156, 88],
+      "collisionSize": [64, 74],
+      "anchor": "bottom-center",
+      "mvp": true
+    }
+  },
+  "background": {
+    "stage1Bg01": {
+      "path": "assets/background/stage1-bg-01.svg",
+      "viewBox": [0, 0, 390, 844],
+      "recommendedDisplaySize": [390, 844],
+      "loopRole": "background-a",
+      "mvp": true
+    },
+    "stage1Bg02": {
+      "path": "assets/background/stage1-bg-02.svg",
+      "viewBox": [0, 0, 390, 844],
+      "recommendedDisplaySize": [390, 844],
+      "loopRole": "background-b",
+      "mvp": true
+    },
+    "stage1BgLoop": {
+      "path": "assets/background/stage1-ruined-road-loop.png",
+      "recommendedDisplaySize": [390, 1688],
+      "loopRole": "seam-controlled-gameplay-loop",
+      "mvp": true
+    }
+  },
+  "enemy": {
+    "small": {
+      "path": "assets/enemy/enemy-small.svg",
+      "viewBox": [0, 0, 64, 64],
+      "recommendedDisplaySize": [48, 48],
+      "collisionSize": [38, 38],
+      "mvp": true
+    },
+    "medium": {
+      "path": "assets/enemy/enemy-medium.svg",
+      "viewBox": [0, 0, 88, 88],
+      "recommendedDisplaySize": [64, 64],
+      "collisionSize": [50, 50],
+      "mvp": true
+    },
+    "boss": {
+      "path": "assets/enemy/enemy-boss.svg",
+      "viewBox": [0, 0, 180, 160],
+      "recommendedDisplaySize": [150, 134],
+      "collisionSize": [126, 104],
+      "mvp": false,
+      "note": "reserved-placeholder"
+    }
+  },
+  "effects": {
+    "playerBullet": {
+      "path": "assets/effects/bullet/player-bullet.svg",
+      "viewBox": [0, 0, 24, 56],
+      "recommendedDisplaySize": [12, 28],
+      "mvp": true
+    },
+    "enemyBulletStraight": {
+      "path": "assets/effects/bullet/enemy-bullet-straight.svg",
+      "viewBox": [0, 0, 28, 28],
+      "recommendedDisplaySize": [18, 18],
+      "mvp": true
+    },
+    "explosionSmall": {
+      "path": "assets/effects/explosion/explosion-small.svg",
+      "viewBox": [0, 0, 96, 96],
+      "recommendedDisplaySize": [72, 72],
+      "mvp": true
+    },
+    "energyCrystal": {
+      "path": "assets/effects/energy/energy-crystal.svg",
+      "viewBox": [0, 0, 64, 64],
+      "recommendedDisplaySize": [32, 32],
+      "mvp": true
+    },
+    "energyAttack": {
+      "path": "assets/effects/energy/energy-attack.svg",
+      "viewBox": [0, 0, 64, 64],
+      "recommendedDisplaySize": [32, 32],
+      "mvp": true
+    },
+    "energyHeal": {
+      "path": "assets/effects/energy/energy-heal.svg",
+      "viewBox": [0, 0, 64, 64],
+      "recommendedDisplaySize": [32, 32],
+      "mvp": true
+    },
+    "energyShield": {
+      "path": "assets/effects/energy/energy-shield.svg",
+      "viewBox": [0, 0, 64, 64],
+      "recommendedDisplaySize": [32, 32],
+      "mvp": true
+    },
+    "skillShield": {
+      "path": "assets/effects/skill/skill-shield.svg",
+      "viewBox": [0, 0, 96, 96],
+      "recommendedDisplaySize": [96, 96],
+      "mvp": true
+    },
+    "skillOverload": {
+      "path": "assets/effects/skill/skill-overload.svg",
+      "viewBox": [0, 0, 96, 96],
+      "recommendedDisplaySize": [96, 96],
+      "mvp": true
+    },
+    "skillHeal": {
+      "path": "assets/effects/skill/skill-heal.svg",
+      "viewBox": [0, 0, 96, 96],
+      "recommendedDisplaySize": [96, 96],
+      "mvp": true
+    },
+    "skillStrike": {
+      "path": "assets/effects/skill/skill-strike.svg",
+      "viewBox": [0, 0, 96, 96],
+      "recommendedDisplaySize": [96, 96],
+      "mvp": true
+    }
+  },
+  "ui": {
+    "hud": {
+      "hpBarBg": {
+        "path": "assets/ui/hud/hp-bar-bg.svg",
+        "viewBox": [0, 0, 168, 28],
+        "recommendedDisplaySize": [126, 21],
+        "mvp": true
+      },
+      "hpBarFill": {
+        "path": "assets/ui/hud/hp-bar-fill.svg",
+        "viewBox": [0, 0, 168, 28],
+        "recommendedDisplaySize": [126, 21],
+        "mvp": true
+      },
+      "energyBarBg": {
+        "path": "assets/ui/hud/energy-bar-bg.svg",
+        "viewBox": [0, 0, 128, 20],
+        "recommendedDisplaySize": [96, 15],
+        "mvp": true
+      },
+      "energyBarFill": {
+        "path": "assets/ui/hud/energy-bar-fill.svg",
+        "viewBox": [0, 0, 128, 20],
+        "recommendedDisplaySize": [96, 15],
+        "mvp": true
+      },
+      "topHudPanel": {
+        "path": "assets/ui/hud/top-hud-panel.svg",
+        "viewBox": [0, 0, 358, 72],
+        "recommendedDisplaySize": [358, 72],
+        "mvp": true
+      },
+      "skillDock": {
+        "path": "assets/ui/hud/skill-dock.svg",
+        "viewBox": [0, 0, 108, 124],
+        "recommendedDisplaySize": [108, 124],
+        "mvp": true
+      }
+    },
+    "buttons": {
+      "skillDisabled": {
+        "path": "assets/ui/buttons/skill-button-disabled.svg",
+        "viewBox": [0, 0, 88, 88],
+        "recommendedDisplaySize": [72, 72],
+        "touchSize": [88, 88],
+        "state": "disabled",
+        "mvp": true
+      },
+      "skillReady": {
+        "path": "assets/ui/buttons/skill-button-ready.svg",
+        "viewBox": [0, 0, 88, 88],
+        "recommendedDisplaySize": [72, 72],
+        "touchSize": [88, 88],
+        "state": "ready",
+        "mvp": true
+      },
+      "skillActive": {
+        "path": "assets/ui/buttons/skill-button-active.svg",
+        "viewBox": [0, 0, 88, 88],
+        "recommendedDisplaySize": [72, 72],
+        "touchSize": [88, 88],
+        "state": "active",
+        "mvp": true
+      },
+      "skillCooldown": {
+        "path": "assets/ui/buttons/skill-button-cooldown.svg",
+        "viewBox": [0, 0, 88, 88],
+        "recommendedDisplaySize": [72, 72],
+        "touchSize": [88, 88],
+        "state": "cooldown",
+        "mvp": true
+      },
+      "primary": {
+        "path": "assets/ui/buttons/button-primary.svg",
+        "viewBox": [0, 0, 278, 58],
+        "recommendedDisplaySize": [278, 58],
+        "mvp": true
+      },
+      "secondary": {
+        "path": "assets/ui/buttons/button-secondary.svg",
+        "viewBox": [0, 0, 198, 46],
+        "recommendedDisplaySize": [198, 46],
+        "mvp": true
+      },
+      "danger": {
+        "path": "assets/ui/buttons/button-danger.svg",
+        "viewBox": [0, 0, 198, 46],
+        "recommendedDisplaySize": [198, 46],
+        "mvp": false,
+        "note": "reserved-for-destructive-or-exit-actions"
+      }
+    },
+    "cards": {
+      "characterCardYellow": {
+        "path": "assets/ui/cards/character-card-yellow.svg",
+        "viewBox": [0, 0, 160, 252],
+        "recommendedDisplaySize": [160, 252],
+        "mvp": true
+      },
+      "characterCardWhite": {
+        "path": "assets/ui/cards/character-card-white.svg",
+        "viewBox": [0, 0, 160, 252],
+        "recommendedDisplaySize": [160, 252],
+        "mvp": true
+      }
+    },
+    "badges": {
+      "season01": {
+        "path": "assets/ui/badges/season-01-badge.svg",
+        "viewBox": [0, 0, 168, 52],
+        "recommendedDisplaySize": [168, 52],
+        "mvp": true
+      }
+    },
+    "icons": {
+      "time": {
+        "path": "assets/ui/icons/icon-time.svg",
+        "viewBox": [0, 0, 48, 48],
+        "recommendedDisplaySize": [20, 20],
+        "mvp": true
+      },
+      "score": {
+        "path": "assets/ui/icons/icon-score.svg",
+        "viewBox": [0, 0, 48, 48],
+        "recommendedDisplaySize": [20, 20],
+        "mvp": true
+      },
+      "rank": {
+        "path": "assets/ui/icons/icon-rank.svg",
+        "viewBox": [0, 0, 48, 48],
+        "recommendedDisplaySize": [20, 20],
+        "mvp": true
+      }
+    },
+    "skills": {
+      "skillAttackBadge": {
+        "path": "assets/ui/skills/skill-attack-badge.png",
+        "recommendedDisplaySize": [44, 44],
+        "mvp": true
+      },
+      "skillHealBadge": {
+        "path": "assets/ui/skills/skill-heal-badge.png",
+        "recommendedDisplaySize": [44, 44],
+        "mvp": true
+      },
+      "skillShieldBadge": {
+        "path": "assets/ui/skills/skill-shield-badge.png",
+        "recommendedDisplaySize": [44, 44],
+        "mvp": true
+      }
+    },
+    "screens": {
+      "homeSelect": {
+        "path": "assets/ui/screens/mvp-home-select.svg",
+        "viewBox": [0, 0, 390, 844],
+        "usage": "preview-only",
+        "mvp": true
+      },
+      "battleHud": {
+        "path": "assets/ui/screens/mvp-battle-hud.svg",
+        "viewBox": [0, 0, 390, 844],
+        "usage": "preview-only",
+        "mvp": true
+      },
+      "gameOverRanking": {
+        "path": "assets/ui/screens/mvp-game-over-ranking.svg",
+        "viewBox": [0, 0, 390, 844],
+        "usage": "preview-only",
+        "mvp": true
+      },
+      "gameOver": {
+        "path": "assets/ui/screens/mvp-game-over.svg",
+        "viewBox": [0, 0, 390, 844],
+        "usage": "screen-template",
+        "mvp": true
+      },
+      "ranking": {
+        "path": "assets/ui/screens/mvp-ranking.svg",
+        "viewBox": [0, 0, 390, 844],
+        "usage": "screen-template",
+        "mvp": true
+      },
+      "season01": {
+        "path": "assets/ui/screens/mvp-season-01.svg",
+        "viewBox": [0, 0, 390, 844],
+        "usage": "screen-template",
+        "mvp": true
+      }
+    }
+  },
+  "uiStateFields": {
+    "hud": [
+      "hp",
+      "maxHp",
+      "survivalTime",
+      "score",
+      "killCount",
+      "bestTime",
+      "currentRank",
+      "skillEnergy",
+      "skillEnergyMax",
+      "skillState",
+      "skillRemainingTime",
+      "cooldownRemainingTime"
+    ],
+    "settlement": [
+      "survivalTime",
+      "killCount",
+      "score",
+      "rank",
+      "isNewRecord"
+    ],
+    "ranking": [
+      "player",
+      "time",
+      "score",
+      "killCount",
+      "createdAt"
+    ]
+  }
+}

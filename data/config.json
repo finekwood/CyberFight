@@ -1,0 +1,202 @@
+{
+  "canvas": {
+    "designWidth": 390,
+    "designHeight": 844
+  },
+  "ranking": {
+    "storageKey": "cyber_flight_rankings_v1",
+    "limit": 20,
+    "distancePerSecond": 100
+  },
+  "leveling": {
+    "maxLevel": 3,
+    "expToNext": {
+      "1": 100,
+      "2": 120
+    },
+    "enemyExp": {
+      "small": 3,
+      "medium": 7,
+      "large": 10
+    },
+    "levels": {
+      "1": {
+        "damageMultiplier": 1,
+        "fireRateMultiplier": 1,
+        "bulletCount": 1
+      },
+      "2": {
+        "damageMultiplier": 1.18,
+        "fireRateMultiplier": 0.92,
+        "bulletCount": 2
+      },
+      "3": {
+        "damageMultiplier": 1.36,
+        "fireRateMultiplier": 0.84,
+        "bulletCount": 3
+      }
+    }
+  },
+  "player": {
+    "white-dog": {
+      "label": "White Dog",
+      "description": "Explorer type, strong defense and survival.",
+      "avatarAsset": "whiteDogAvatar",
+      "aircraftAsset": "whiteFighterIdle",
+      "aircraftAssets": {
+        "1": "whiteFighterLv1",
+        "2": "whiteFighterLv2",
+        "3": "whiteFighterLv3"
+      },
+      "hp": 120,
+      "speed": 520,
+      "damage": 28,
+      "fireRate": 0.18,
+      "skillId": "shield"
+    },
+    "yellow-dog": {
+      "label": "Yellow Dog",
+      "description": "Assault type, stronger attack and burst.",
+      "avatarAsset": "yellowDogAvatar",
+      "aircraftAsset": "yellowFighterIdle",
+      "aircraftAssets": {
+        "1": "yellowFighterLv1",
+        "2": "yellowFighterLv2",
+        "3": "yellowFighterLv3"
+      },
+      "hp": 100,
+      "speed": 540,
+      "damage": 34,
+      "fireRate": 0.17,
+      "skillId": "attack"
+    }
+  },
+  "enemy": {
+    "small": {
+      "asset": "enemySmall",
+      "hp": 60,
+      "speed": 118,
+      "score": 120,
+      "damage": 16,
+      "fireRate": 2.8,
+      "fireChance": 0.35,
+      "energyChance": 0.28,
+      "bulletPattern": {
+        "type": "straight",
+        "speed": 180,
+        "damage": 10
+      },
+      "movement": {
+        "patterns": ["straight"]
+      }
+    },
+    "medium": {
+      "asset": "enemyMedium",
+      "hp": 150,
+      "speed": 86,
+      "score": 320,
+      "damage": 24,
+      "fireRate": 1.8,
+      "fireChance": 1,
+      "energyChance": 0.5,
+      "movement": {
+        "patterns": ["patrol", "pressure", "hover"],
+        "amplitudeMin": 40,
+        "amplitudeMax": 70,
+        "frequencyMin": 0.55,
+        "frequencyMax": 0.85,
+        "trackStrength": 55,
+        "hoverYMin": 150,
+        "hoverYMax": 260,
+        "hoverDurationMin": 1.2,
+        "hoverDurationMax": 2.1
+      },
+      "bulletPattern": {
+        "type": "aimed-spread",
+        "angles": [-18, 0, 18],
+        "speed": 225,
+        "aimLimit": 30
+      }
+    }
+  },
+  "difficulty": [
+    {
+      "from": 0,
+      "spawnInterval": 1.35,
+      "enemyTypes": ["small"],
+      "speedMultiplier": 1,
+      "fireChance": {
+        "small": 0.35
+      }
+    },
+    {
+      "from": 20,
+      "spawnInterval": 1.12,
+      "enemyTypes": ["small", "small", "medium"],
+      "speedMultiplier": 1.08,
+      "fireChance": {
+        "small": 0.45,
+        "medium": 1
+      }
+    },
+    {
+      "from": 45,
+      "spawnInterval": 0.92,
+      "enemyTypes": ["small", "small", "medium"],
+      "speedMultiplier": 1.2,
+      "fireChance": {
+        "small": 0.58,
+        "medium": 1
+      }
+    },
+    {
+      "from": 80,
+      "spawnInterval": 0.76,
+      "enemyTypes": ["small", "medium", "medium"],
+      "speedMultiplier": 1.34,
+      "fireChance": {
+        "small": 0.7,
+        "medium": 1
+      }
+    }
+  ],
+  "skill": {
+    "attack": {
+      "label": "Attack Boost",
+      "buttonLabel": "ATK",
+      "iconAsset": "skillAttackBadge",
+      "energyAsset": "energyAttack",
+      "effectAsset": "skillOverload",
+      "duration": 10,
+      "cooldown": 10,
+      "maxEnergy": 100,
+      "energyValue": 10,
+      "damageMultiplier": 1.6,
+      "clearOnActivate": true
+    },
+    "heal": {
+      "label": "Life Restore",
+      "buttonLabel": "HEAL",
+      "iconAsset": "skillHealBadge",
+      "energyAsset": "energyHeal",
+      "effectAsset": "skillHeal",
+      "cooldown": 5,
+      "maxEnergy": 100,
+      "energyValue": 10,
+      "healMaxHpRatio": 0.25,
+      "requiresMissingHp": true
+    },
+    "shield": {
+      "label": "Cyber Shield",
+      "buttonLabel": "DEF",
+      "iconAsset": "skillShieldBadge",
+      "energyAsset": "energyShield",
+      "effectAsset": "skillShield",
+      "duration": 10,
+      "cooldown": 10,
+      "maxEnergy": 100,
+      "energyValue": 10,
+      "smallEnemyCollisionKill": true
+    }
+  }
+}

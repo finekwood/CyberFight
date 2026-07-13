@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 252">
+  <rect x="2" y="2" width="156" height="248" rx="10" fill="#10243a" stroke="#f8fbff" stroke-width="3"/>
+  <rect x="12" y="12" width="136" height="118" rx="8" fill="#f7fbff" opacity=".12"/>
+  <image href="../../player/white-dog/white-dog-avatar.svg" x="35" y="20" width="90" height="90"/>
+  <image href="../../aircraft/white-fighter/white-fighter-idle.svg" x="44" y="118" width="72" height="84"/>
+  <text x="80" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#f8fbff">WHITE DOG</text>
+  <text x="80" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#50ffd2">TECH EXPLORER</text>
+</svg>

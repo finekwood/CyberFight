@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844">
+  <rect width="390" height="844" fill="#0a1530"/>
+  <image href="../badges/season-01-badge.svg" x="111" y="42" width="168" height="52"/>
+  <text x="195" y="136" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="700" fill="#ff8f9d">GAME OVER</text>
+  <rect x="32" y="172" width="326" height="186" rx="10" fill="#10243a" stroke="#50ffd2" stroke-width="2"/>
+  <text x="62" y="222" font-family="Arial, sans-serif" font-size="16" fill="#8fb9d8">TIME</text>
+  <text x="306" y="222" text-anchor="end" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#50ffd2">02:41</text>
+  <text x="62" y="272" font-family="Arial, sans-serif" font-size="16" fill="#8fb9d8">SCORE</text>
+  <text x="306" y="272" text-anchor="end" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#ffc75a">28500</text>
+  <text x="62" y="322" font-family="Arial, sans-serif" font-size="16" fill="#8fb9d8">KILLS</text>
+  <text x="306" y="322" text-anchor="end" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#fff">73</text>
+  <text x="195" y="414" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#fff">LOCAL RANKING</text>
+  <rect x="42" y="448" width="306" height="52" rx="8" fill="#172b48"/>
+  <text x="62" y="481" font-family="Arial, sans-serif" font-size="16" fill="#ffc75a">#1</text>
+  <text x="116" y="481" font-family="Arial, sans-serif" font-size="16" fill="#fff">Player001</text>
+  <text x="318" y="481" text-anchor="end" font-family="Arial, sans-serif" font-size="16" fill="#50ffd2">03:10</text>
+  <rect x="42" y="514" width="306" height="52" rx="8" fill="#10243a" stroke="#50ffd2" stroke-width="2"/>
+  <text x="62" y="547" font-family="Arial, sans-serif" font-size="16" fill="#fff">#2</text>
+  <text x="116" y="547" font-family="Arial, sans-serif" font-size="16" fill="#fff">YOU</text>
+  <text x="318" y="547" text-anchor="end" font-family="Arial, sans-serif" font-size="16" fill="#50ffd2">02:41</text>
+  <image href="../buttons/button-primary.svg" x="56" y="666" width="278" height="58"/>
+  <text x="195" y="703" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#07111f">RETRY</text>
+  <image href="../buttons/button-secondary.svg" x="96" y="744" width="198" height="46"/>
+  <text x="195" y="774" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#f8fbff">HOME</text>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 168 52">
+  <rect x="2" y="2" width="164" height="48" rx="8" fill="#10243a" stroke="#50ffd2" stroke-width="2"/>
+  <path d="M16 14h34l8 12-8 12H16L8 26z" fill="#ffc75a" stroke="#111" stroke-width="2"/>
+  <text x="35" y="31" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="700" fill="#07111f">S01</text>
+  <text x="108" y="23" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#f8fbff">SEASON 01</text>
+  <text x="108" y="38" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#50ffd2">LOCAL RANK</text>
+</svg>

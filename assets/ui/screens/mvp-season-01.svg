@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844">
+  <rect width="390" height="844" fill="#091326"/>
+  <image href="../badges/season-01-badge.svg" x="111" y="78" width="168" height="52"/>
+  <text x="195" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#f8fbff">CYBER FLIGHT</text>
+  <text x="195" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#50ffd2">LOCAL SEASON DISPLAY</text>
+  <rect x="36" y="260" width="318" height="230" rx="10" fill="#10243a" stroke="#50ffd2" stroke-width="2"/>
+  <text x="68" y="314" font-family="Arial, sans-serif" font-size="14" fill="#8fb9d8">SEASON PERIOD</text>
+  <text x="68" y="346" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#f8fbff">7 DAYS</text>
+  <text x="68" y="400" font-family="Arial, sans-serif" font-size="14" fill="#8fb9d8">RANK RULE</text>
+  <text x="68" y="432" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#ffc75a">SURVIVAL TIME FIRST</text>
+  <rect x="60" y="544" width="270" height="110" rx="10" fill="#172b48" stroke="#1c395c" stroke-width="2"/>
+  <text x="195" y="586" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#8fb9d8">MVP NOTE</text>
+  <text x="195" y="622" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#f8fbff">LOCAL STORAGE ONLY</text>
+  <image href="../buttons/button-primary.svg" x="56" y="704" width="278" height="58"/>
+  <text x="195" y="741" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#07111f">VIEW RANKING</text>
+</svg>

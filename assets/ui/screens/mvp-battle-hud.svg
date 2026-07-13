@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844">
+  <image href="../../background/stage1-bg-01.svg" x="0" y="0" width="390" height="844"/>
+  <image href="../hud/top-hud-panel.svg" x="16" y="18" width="358" height="72"/>
+  <image href="../hud/hp-bar-bg.svg" x="28" y="40" width="126" height="21"/>
+  <image href="../hud/hp-bar-fill.svg" x="28" y="40" width="102" height="21"/>
+  <image href="../icons/icon-time.svg" x="174" y="32" width="24" height="24"/>
+  <text x="226" y="52" font-family="Arial, sans-serif" font-size="17" font-weight="700" fill="#fff">01:28</text>
+  <image href="../icons/icon-score.svg" x="286" y="32" width="24" height="24"/>
+  <text x="318" y="52" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#fff">12800</text>
+  <image href="../../enemy/enemy-small.svg" x="82" y="176" width="54" height="54"/>
+  <image href="../../enemy/enemy-medium.svg" x="242" y="252" width="72" height="72"/>
+  <image href="../../effects/bullet/player-bullet.svg" x="188" y="442" width="18" height="42"/>
+  <image href="../../effects/energy/energy-crystal.svg" x="94" y="506" width="34" height="34"/>
+  <image href="../../aircraft/yellow-fighter/yellow-fighter-idle.svg" x="153" y="610" width="84" height="98"/>
+  <image href="../hud/skill-dock.svg" x="262" y="704" width="108" height="124"/>
+  <image href="../buttons/skill-button-ready.svg" x="278" y="720" width="76" height="76"/>
+  <image href="../hud/energy-bar-bg.svg" x="206" y="804" width="120" height="18"/>
+  <image href="../hud/energy-bar-fill.svg" x="206" y="804" width="120" height="18"/>
+</svg>

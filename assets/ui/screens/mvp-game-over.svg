@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844">
+  <rect width="390" height="844" fill="#091326"/>
+  <image href="../badges/season-01-badge.svg" x="111" y="70" width="168" height="52"/>
+  <text x="195" y="178" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#ff8f9d">GAME OVER</text>
+  <rect x="34" y="224" width="322" height="276" rx="10" fill="#10243a" stroke="#50ffd2" stroke-width="2"/>
+  <text x="62" y="270" font-family="Arial, sans-serif" font-size="15" fill="#8fb9d8">SURVIVAL</text>
+  <text x="328" y="270" text-anchor="end" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#f8fbff">03:42</text>
+  <text x="62" y="326" font-family="Arial, sans-serif" font-size="15" fill="#8fb9d8">KILL COUNT</text>
+  <text x="328" y="326" text-anchor="end" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#f8fbff">128</text>
+  <text x="62" y="382" font-family="Arial, sans-serif" font-size="15" fill="#8fb9d8">SCORE</text>
+  <text x="328" y="382" text-anchor="end" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#ffc75a">50,000</text>
+  <path d="M62 424h266" stroke="#1c395c" stroke-width="2"/>
+  <text x="62" y="462" font-family="Arial, sans-serif" font-size="15" fill="#8fb9d8">LOCAL RANK</text>
+  <text x="328" y="462" text-anchor="end" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#50ffd2">#03</text>
+  <image href="../buttons/button-primary.svg" x="56" y="558" width="278" height="58"/>
+  <text x="195" y="595" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#07111f">RETRY</text>
+  <image href="../buttons/button-secondary.svg" x="96" y="638" width="198" height="46"/>
+  <text x="195" y="668" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#f8fbff">RANKING</text>
+  <image href="../buttons/button-secondary.svg" x="96" y="704" width="198" height="46"/>
+  <text x="195" y="734" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#f8fbff">HOME</text>
+</svg>

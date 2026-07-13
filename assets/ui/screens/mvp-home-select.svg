@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 390 844">
+  <rect width="390" height="844" fill="#0a1530"/>
+  <path d="M0 670h390v174H0z" fill="#111b33"/>
+  <image href="../badges/season-01-badge.svg" x="111" y="42" width="168" height="52"/>
+  <text x="195" y="132" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#f8fbff">CYBER FLIGHT</text>
+  <text x="195" y="164" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#50ffd2">SELECT FIGHTER</text>
+  <image href="../cards/character-card-white.svg" x="24" y="204" width="160" height="252"/>
+  <image href="../cards/character-card-yellow.svg" x="206" y="204" width="160" height="252"/>
+  <image href="../buttons/button-primary.svg" x="56" y="536" width="278" height="58"/>
+  <text x="195" y="573" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#07111f">START</text>
+  <image href="../buttons/button-secondary.svg" x="96" y="616" width="198" height="46"/>
+  <text x="195" y="646" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#f8fbff">RANKING</text>
+  <image href="../buttons/button-secondary.svg" x="96" y="682" width="198" height="46"/>
+  <text x="195" y="712" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#f8fbff">SEASON 01</text>
+</svg>

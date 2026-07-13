@@ -1,0 +1,116 @@
+{
+  "version": "1.0.0",
+  "date": "2026-07-11",
+  "basePath": "",
+  "enabled": true,
+  "fallback": "silent",
+  "volume": {
+    "master": 0.8,
+    "bgm": 0.42,
+    "sfx": 0.75,
+    "voice": 0.8
+  },
+  "limits": {
+    "playerShootMinIntervalMs": 80,
+    "energyPickupMinIntervalMs": 50,
+    "maxSimultaneousExplosions": 3
+  },
+  "audio": {
+    "battleBgm": {
+      "path": "assets/audio/bgm/bgm-battle-loop.mp3",
+      "type": "bgm",
+      "loop": true,
+      "mvp": true,
+      "trigger": "Play after entering the battle screen and after mobile audio unlock; stop or fade on Game Over.",
+      "fallback": "silent"
+    },
+    "playerShoot": {
+      "path": "assets/audio/sfx/sfx-player-shoot.wav",
+      "type": "sfx",
+      "mvp": true,
+      "trigger": "Play when player auto-fire creates bullets; one play per fire tick, rate-limited.",
+      "fallback": "silent"
+    },
+    "enemyExplosion": {
+      "path": "assets/audio/sfx/sfx-enemy-explosion.wav",
+      "type": "sfx",
+      "mvp": true,
+      "trigger": "Play when an enemy dies or an enemy collision creates an explosion effect.",
+      "fallback": "silent"
+    },
+    "energyPickup": {
+      "path": "assets/audio/sfx/sfx-energy-pickup.wav",
+      "type": "sfx",
+      "mvp": true,
+      "trigger": "Play when the player collects an Energy Crystal drop.",
+      "fallback": "silent"
+    },
+    "skillReady": {
+      "path": "assets/audio/sfx/sfx-skill-ready.wav",
+      "type": "sfx",
+      "mvp": true,
+      "trigger": "Play once when skill state first changes from disabled to ready.",
+      "fallback": "silent"
+    },
+    "skillCast": {
+      "path": "assets/audio/sfx/sfx-skill-cast.wav",
+      "type": "sfx",
+      "mvp": true,
+      "trigger": "Play after activateSkill() succeeds and the skill enters active state.",
+      "fallback": "silent"
+    },
+    "playerHit": {
+      "path": "assets/audio/sfx/sfx-player-hit.wav",
+      "type": "sfx",
+      "mvp": true,
+      "trigger": "Play when damagePlayer() actually reduces HP; do not play during invincible shield prevention.",
+      "fallback": "silent"
+    },
+    "gameOver": {
+      "path": "assets/audio/sfx/sfx-game-over.wav",
+      "type": "sfx",
+      "mvp": true,
+      "trigger": "Play once when finishRun() moves the game to Game Over.",
+      "fallback": "silent"
+    },
+    "buttonClick": {
+      "path": "assets/audio/sfx/sfx-button-click.wav",
+      "type": "sfx",
+      "mvp": true,
+      "trigger": "Play for ordinary valid UI button clicks; do not stack with skillCast on successful skill use.",
+      "fallback": "silent"
+    }
+  },
+  "reserved": {
+    "enemyShoot": {
+      "type": "sfx",
+      "mvp": false,
+      "purpose": "Enemy bullet firing."
+    },
+    "bossWarning": {
+      "type": "sfx",
+      "mvp": false,
+      "purpose": "Boss or high-danger wave warning."
+    },
+    "shieldLoop": {
+      "type": "sfx",
+      "mvp": false,
+      "purpose": "Cyber Shield active loop."
+    },
+    "overloadLoop": {
+      "type": "sfx",
+      "mvp": false,
+      "purpose": "Cyber Overload active loop."
+    },
+    "strikeImpact": {
+      "type": "sfx",
+      "mvp": false,
+      "purpose": "Cyber Strike screen-wide impact."
+    },
+    "rankingNewRecord": {
+      "type": "sfx",
+      "mvp": false,
+      "purpose": "New local record result screen feedback."
+    }
+  }
+}
